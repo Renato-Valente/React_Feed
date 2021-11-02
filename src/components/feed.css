@@ -1,0 +1,28 @@
+.feed{
+    background-color: #97b8ce;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feed h2{
+    margin-top:0;
+    padding:20px 12px;
+    font-size: 30px;
+}
+
+.feed p {
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.feed img{
+   width: 50%;
+   height:auto;
+}
+
+@media(max-width: 400px){
+    .feed img{
+        width: 80%;
+        height: auto;
+    }
+}
